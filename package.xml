@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PSR_Log</name>
+ <channel>pear.silverorange.com</channel>
+ <summary>PSR-3 Log interfaces and helper classes.</summary>
+ <description>PSR-3 Log interfaces and helper classes.</description>
+ <lead>
+  <name>Mike Gauthier</name>
+  <user>gauthierm</user>
+  <email>mike@silverorange.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-05-29</date>
+ <time>17:43:24</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+* PEAR package of Git repository.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="Psr">
+    <dir name="Log">
+     <dir name="Test">
+      <file name="LoggerInterfaceTest.php" role="php" />
+     </dir> <!-- //Psr/Log/Test -->
+     <file name="AbstractLogger.php" role="php" />
+     <file name="InvalidArgumentException.php" role="php" />
+     <file name="LoggerAwareInterface.php" role="php" />
+     <file name="LoggerAwareTrait.php" role="php" />
+     <file name="LoggerInterface.php" role="php" />
+     <file name="LoggerTrait.php" role="php" />
+     <file name="LogLevel.php" role="php" />
+     <file name="NullLogger.php" role="php" />
+    </dir> <!-- //Psr/Log -->
+   </dir> <!-- //Psr -->
+   <file name="LICENSE" role="doc" />
+   <file name="README.md" role="doc" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-05-29</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+   <notes>
+* PEAR package of Git repository.
+   </notes>
+  </release>
+ </changelog>
+</package>
