@@ -108,6 +108,13 @@ $package->addMaintainer(
     'mike@silverorange.com'
 );
 
+$package->addMaintainer(
+    'lead',
+    'nrf',
+    'Nathan Fredrickson',
+    'nathan@silverorange.com'
+);
+
 $package->setPhpDep('5.3.0');
 $package->setPearinstallerDep('1.4.0');
 $package->generateContents();
